@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Intership project web page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="style.css">  -->
+    <style>
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-right">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="lazy-img logo-image-default" src="int.jpeg"
+                    data-src="images/logo-default-114x27.svg" alt="Intense" width="114" height="27"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="new.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Revolution slider</a></li>
+                            <li><a class="dropdown-item" href="#">Plugins</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Blog basic</a></li>
+                            <li><a class="dropdown-item" href="#">Blog classic</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            shop
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Component
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+
+                    <div style="color: aliceblue;" class="col-lg-auto animated fadeInRightBig"
+                        data-animate="{&quot;class&quot;:&quot;fadeInRightBig&quot;}"><a
+                            class="btn btn-lg btn-round btn-success" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-apple" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                            </svg>
+                            <span style="color: aliceblue;">Download for iOS</span></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- 1st -->
+    <div class="container">
+        <div style=" height: 500px; background-color: rgb(177, 232, 236);">
+            <div class="row">
+                <div class="col-sm-6">
+                    <br><br><br>
+                    <h1 style="max-width: 450px; padding-left: 2cap;"
+                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">Take control
+                        of your inbox.</h1>
+                    <p style="max-width: 600px; padding-left: 5cap;"
+                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;,&quot;delay&quot;:&quot;0.15s&quot;}">
+                        <span class="h6">Intense is an independent web design studio with a rich history. It started as
+                            a small family-owned business in Oakville.</span>
+                    </p>
+                    <div style="color: aliceblue; padding-left: 6cap;" class="col-lg-auto animated fadeInRightBig"
+                        data-animate="{&quot;class&quot;:&quot;fadeInRightBig&quot;}"><a
+                            class="btn btn-lg btn-round btn-dark" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-apple" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                            </svg>
+                            <span style="color: aliceblue;">Download for iOS</span></a>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <center>
+                        <img style="padding-top: 5cap;" pclass="lazy-img shadow-lg" src="int1.png" data-src="int1.png"
+                            alt="" width="500" height="500">
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <!--  -->
+    <div class="container-fluid">
+        <div style=" height: 600px; background-color: rgb(241, 248, 248);">
+            <h1 data-animate="{&quot;class&quot;:&quot;fadeIn&quot;}" class="animated fadeIn">We’ll give you an
+                email
+                alias. You’ll like sharing this email when brands ask for one.</h1>
+            <p data-animate="{&quot;class&quot;:&quot;fadeIn&quot;}" class="animated fadeIn"><span class="h6">Intense is
+                    an independent web design studio with a rich history.</span></p>
+            <div class="row row-30 align-items-center">
+                <div class="col-md-6 animated fadeIn" data-animate="{&quot;class&quot;:&quot;fadeIn&quot;}"><img
+                        class="lazy-img" src="int3.png" data-src="int3.png" alt="" width="583" height="402">
+                </div>
+                <div class="col-md-6 blurb-area">
+                    <!-- Blurb inline-->
+                    <article class="blurb blurb-inline animated fadeInRightBig"
+                        data-animate="{&quot;class&quot;:&quot;fadeInRightBig&quot;}">
+                        <div class="media media-md align-items-center">
+                            <div class="media-left">
+
+                                <div class="media-body">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                        class="bi bi-display" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4q0 1 .25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75Q6 13 6 12H2s-2 0-2-2zm1.398-.855a.76.76 0 0 0-.254.302A1.5 1.5 0 0 0 1 4.01V10c0 .325.078.502.145.602q.105.156.302.254a1.5 1.5 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.76.76 0 0 0 .254-.302 1.5 1.5 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.76.76 0 0 0-.302-.254A1.5 1.5 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145" />
+                                    </svg>
+                                    <div class="blurb-title h5">Based on Bootstrap</div>
+                                    <div class="blurb-text">Intense is based on the one of the most popular and
+                                        flexible
+                                        CSS
+                                        Frameworks - Bootstrap.</div>
+                                </div>
+                            </div>
+                    </article>
+                    <!-- Blurb inline-->
+                    <article class="blurb blurb-inline animated fadeInRightBig"
+                        data-animate="{&quot;class&quot;:&quot;fadeInRightBig&quot;,&quot;delay&quot;:&quot;0.15s&quot;}"
+                        style="animation-delay: 0.15s;">
+                        <div class="media media-md align-items-center">
+                            <div class="media-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                    class="bi bi-display" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4q0 1 .25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75Q6 13 6 12H2s-2 0-2-2zm1.398-.855a.76.76 0 0 0-.254.302A1.5 1.5 0 0 0 1 4.01V10c0 .325.078.502.145.602q.105.156.302.254a1.5 1.5 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.76.76 0 0 0 .254-.302 1.5 1.5 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.76.76 0 0 0-.302-.254A1.5 1.5 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145" />
+                                </svg>
+                                <div class="media-body">
+                                    <div class="blurb-title h5">Based on Bootstrap</div>
+                                    <div class="blurb-text">Intense is based on the one of the most popular and
+                                        flexible CSS
+                                        Frameworks - Bootstrap.</div>
+                                </div>
+                            </div>
+                    </article>
+                    <!-- Blurb inline-->
+                    <article class="blurb blurb-inline animated fadeInRightBig"
+                        data-animate="{&quot;class&quot;:&quot;fadeInRightBig&quot;,&quot;delay&quot;:&quot;0.3s&quot;}"
+                        style="animation-delay: 0.3s;">
+                        <div class="media media-md align-items-center">
+                            <div class="media-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                    class="bi bi-display" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4q0 1 .25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75Q6 13 6 12H2s-2 0-2-2zm1.398-.855a.76.76 0 0 0-.254.302A1.5 1.5 0 0 0 1 4.01V10c0 .325.078.502.145.602q.105.156.302.254a1.5 1.5 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.76.76 0 0 0 .254-.302 1.5 1.5 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.76.76 0 0 0-.302-.254A1.5 1.5 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145" />
+                                </svg>
+                                <div class="media-body">
+                                    <div class="blurb-title h5">Based on Bootstrap</div>
+                                    <div class="blurb-text">Intense is based on the one of the most popular and
+                                        flexible CSS
+                                        Frameworks - Bootstrap.</div>
+                                </div>
+                            </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br><br>
+    <!--  -->
+    <div class="container-fluid">
+        <div style=" height: 500px; background-color: rgb(177, 232, 236); padding-top: 10cap;">
+            <div class="row">
+                <div class="col-6">
+                    <h1 data-animate="{&quot;class&quot;:&quot;fadeIn&quot;}" class="animated fadeIn">Only the emails
+                        you want in 3 steps.</h1>
+                    <p data-animate="{&quot;class&quot;:&quot;fadeIn&quot;}" class="animated fadeIn"><span
+                            class="h6">Intense is an independent web design studio with a rich history. It started as a
+                            small family-owned business in Oakville.</span></p>
+                </div>
+                <div style="color: aliceblue;" class="col-lg-auto animated fadeInRightBig"
+                    data-animate="{&quot;class&quot;:&quot;fadeInRightBig&quot;}"><a
+                        class="btn btn-lg btn-round btn-dark" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-apple" viewBox="0 0 16 16">
+                            <path
+                                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                            <path
+                                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                        </svg>
+                        <span style="color: aliceblue;">Download for iOS</span></a>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <div style="padding-left: 8cap; padding-top: 3cap;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                                    class="bi bi-1-circle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <h5> <b>Bootstrap framework </b></h5>
+
+                            <p class="text-left">Intense is based on the one of the most popular and flexible CSS
+                                Frameworks - Bootstrap.
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <div style="padding-left: 8cap; padding-top: 3cap;">
+                                <center>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                                        class="bi bi-2-circle-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z" />
+                                    </svg>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <h5> <b>Bootstrap framework </b></h5>
+
+                            <p class="text-left">Intense is based on the one of the most popular and flexible CSS
+                                Frameworks - Bootstrap.
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <div style="padding-left: 8cap; padding-top: 3cap;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                                    class="bi bi-3-circle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <h5> <b> Bootstrap framework </b></h5>
+
+                            <p class="text-left">Intense is based on the one of the most popular and flexible CSS
+                                Frameworks - Bootstrap.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <div class="container-fluid">
+        <div style=" height: 600px; background-color: rgb(238, 247, 248);">
+            <div class="row row-30 row-xl-80">
+                <div class="col-md-6 animated fadeIn" data-animate="{&quot;class&quot;:&quot;fadeIn&quot;}">
+                    <h1>Everyone <br>benefits with Intense</h1>
+                    <div class="tab">
+                        <ul class="nav nav-line" role="tablist">
+                            <li class="nav-item h6"><a class="nav-link active" data-bs-toggle="tab" href="#navHomeApp1"
+                                    role="tab" aria-selected="true">Toolkit core</a></li>
+                            <li class="nav-item h6"><a class="nav-link" data-bs-toggle="tab" href="#navHomeApp2"
+                                    role="tab" aria-selected="false">Ui kit</a></li>
+                            <li class="nav-item h6"><a class="nav-link" data-bs-toggle="tab" href="#navHomeApp3"
+                                    role="tab" aria-selected="false">Plugins</a></li>
+                            <li class="nav-item h6"><a class="nav-link" data-bs-toggle="tab" href="#navHomeApp4"
+                                    role="tab" aria-selected="false">Documentation</a></li>
+                        </ul>
+                        <hr>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="navHomeApp1" role="tabpanel">
+                                <h3 style="max-width: 480px">Our professional services are the keys to your success.
+                                </h3>
+                                <p>Nowadays, almost everyone has a website. Basically, this is a business card that you
+                                    present every visitor or partner with. So, the better it is designed the more likely
+                                    you can expect your further cooperation.</p>
+                            </div>
+                            <div class="tab-pane fade" id="navHomeApp2" role="tabpanel">
+                                <h3>Our professional services are the keys to your success.</h3>
+                                <p>Nowadays, almost everyone has a website. Basically, this is a business card that you
+                                    present every visitor or partner with. So, the better it is designed the more likely
+                                    you can expect your further cooperation.</p>
+                            </div>
+                            <div class="tab-pane fade" id="navHomeApp3" role="tabpanel">
+                                <h3>Our professional services are the keys to your success.</h3>
+                                <p>Nowadays, almost everyone has a website. Basically, this is a business card that you
+                                    present every visitor or partner with. So, the better it is designed the more likely
+                                    you can expect your further cooperation.</p>
+                            </div>
+                            <div class="tab-pane fade" id="navHomeApp4" role="tabpanel">
+                                <h3>Our professional services are the keys to your success.</h3>
+                                <p>Nowadays, almost everyone has a website. Basically, this is a business card that you
+                                    present every visitor or partner with. So, the better it is designed the more likely
+                                    you can expect your further cooperation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end animated fadeIn"
+                    data-animate="{&quot;class&quot;:&quot;fadeIn&quot;,&quot;delay&quot;:&quot;0.15s&quot;}"
+                    style="animation-delay: 0.15s;"><img class="lazy-img" src="int4.png" data-src="int4.png" alt=""
+                        width="610" height="599">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gray -->
+    <div style=" height: 400px; background-color: rgb(46, 48, 48); padding-top: 10cap;">
+        <section class="section section-lg  text-center text-lg-start context-dark novi-background"
+            data-preset="{&quot;title&quot;:&quot;Call To Action&quot;,&quot;category&quot;:&quot;call to action&quot;,&quot;reload&quot;:true,&quot;id&quot;:&quot;call-to-action-16&quot;}">
+            <div class="container">
+                <div class="row row-30 align-items-lg-center justify-content-lg-between">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6 animated fadeInLeftBig"
+                        data-animate="{&quot;class&quot;:&quot;fadeInLeftBig&quot;}">
+                        <h1 style="color: aliceblue;">Download now</h1>
+                        <p style="color: aliceblue;" class="h6">Intense is an independent web design studio with a rich
+                            history. <br>started as a small family-owned business in Oakville.</p>
+                    </div>
+                    <div style="color: aliceblue;" class="col-lg-auto animated fadeInRightBig"
+                        data-animate="{&quot;class&quot;:&quot;fadeInRightBig&quot;}"><a
+                            class="btn btn-lg btn-round btn-dark" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-apple" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                            </svg>
+                            <span style="color: aliceblue;">Download for iOS</span></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+    <br><br>
+    <!--footer  -->
+    <footer class="section footer footer-lg bg-transparent novi-background"
+        data-preset="{&quot;title&quot;:&quot;Footer App&quot;,&quot;category&quot;:&quot;footer&quot;,&quot;reload&quot;:true,&quot;id&quot;:&quot;footer-app&quot;}">
+        <div class="container">
+            <div class="row row-40 row-md-50 justify-content-md-between justify-content-xl-end">
+                <div class="col-lg-4 col-xl-3">
+                    <!-- Logo-->
+                    <div class="logo"><a class="logo-link" href="home.html"><img class="lazy-img logo-image-default"
+                                src="int.jpeg" data-src="int.jpeg" alt="Intense" width="150" height="80"></a>
+                    </div>
+                    <p class="small">Intense is a mobile app that unites the functionality of a messenger, e-mail app,
+                        and several social network clients.</p>
+                    <div style="color: aliceblue;" class="col-lg-auto animated fadeInRightBig"
+                        data-animate="{&quot;class&quot;:&quot;fadeInRightBig&quot;}"><a
+                            class="btn btn-lg btn-round btn-dark" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-apple" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                            </svg>
+                            <span style="color: aliceblue;">Download for iOS</span></a>
+                    </div>
+                </div>
+                <div class="col-auto col-xs-4 col-lg-auto col-xl-3">
+                    <h6>Features</h6>
+                    <ul class="list list-xl small fw-normal">
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Messaging</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Spam filtering</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Tweeting</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Picture editing</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Account security</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto col-xs-4 col-lg-auto col-xl-3">
+                    <h6>Navigation</h6>
+                    <ul class="list list-xl small fw-normal">
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">About us</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Our team</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Our history</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Portfolio</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto col-xs-4 col-lg-auto col-xl-3">
+                    <h6>Quick links</h6>
+                    <ul class="list list-xl small fw-normal">
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Reviews</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Troubleshooting</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">App installation</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">Configuration</a></li>
+                        <li class="list-item"><a class="list-link" href="#"
+                                style="text-decoration: none;color:black">App changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-7 col-lg-6 col-xl-5">
+                    <h6>Discover the latest news &amp; updates</h6>
+                    <form class="rd-mailform" data-form-type="subscribe" method="post"
+                        action="components/rd-mailform/rd-mailform.php" novalidate="novalidate">
+                        <div class="form-group-icon novi-disabled">
+                            <input class="form-control form-control-has-validation" type="email" name="email"
+                                placeholder="Enter your email address" data-constraints="@Email @Required"
+                                id="regula-generated-259976">
+                            <span class="form-validation"></span><button
+                                class="form-group-icon-btn int-arrow-right novi-icon"></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-5 col-xl-3 offset-lg-1 align-self-end pb-sm-3">
+                    <div class="group-30 d-flex text-900">
+                        <div class="group-30 d-flex align-items-center text-white"> <img src="youtube-svgrepo-com.svg"
+                                class="rounded" alt="Cinque Terre" width="40" height="80"> <img
+                                src="instagram-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="30"
+                                height="30"> <img src="facebook-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                width="30" height="30"> <img src="whatsapp-svgrepo-com.svg" class="rounded"
+                                alt="Cinque Terre" width="30" height="30"><img src="linkedin-svgrepo-com.svg"
+                                class="rounded" alt="Cinque Terre" width="30" height="30">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider divider-sm footer-divider"></div>
+            <div class="footer-panel">
+                <!-- Copyright-->
+                <p class="rights"><span>© 2023&nbsp;</span><span>Intense</span><span>. All rights
+                        reserved.&nbsp;</span><a class="rights-link" href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

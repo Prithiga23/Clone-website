@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.load-content h3{
+    margin-bottom: 30px;
+    color: rgb(134, 133, 133);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content-space p:first-child{
+    font-size: 25px;
+    color: black;
+    
+}
+
+.article-border{
+    border: 1px solid black;
+}
+
+article{
+    border: 1px solid rgb(255, 255, 255);
+}

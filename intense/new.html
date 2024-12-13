@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- <link rel="stylesheet" href="style.css">  -->
+     <!-- <link rel="stylesheet" href="new.js"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-right">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="lazy-img logo-image-default" src="int.jpeg"
+                    data-src="images/logo-default-114x27.svg" alt="Intense" width="114" height="27"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Revolution slider</a></li>
+                            <li><a class="dropdown-item" href="#">Plugins</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Blog basic</a></li>
+                            <li><a class="dropdown-item" href="#">Blog classic</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            shop
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Component
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- 1st page -->
+
+    <div class="container-fluid">
+
+        <div style="height: 500px; background-color: rgb(190, 226, 228);">
+            <br><br><br><br>
+            <h1 class="text-center">The smartest and the most <br> flexible Bootstrap template</h1><br>
+            <p class="text-center">Create exactly what you need with our powerful Bootstrap toolkit.</p>
+            <br><br>
+            <center>
+                <button type="button" class="btn btn-success"> By Intense now</button>
+                <button type="button" class="btn btn-secondary"> Start a Journey Now</button>
+            </center>
+
+        </div>
+    </div>
+
+    <br><br>
+    <!-- 2nd -->
+    <div class="container">
+        <div style="height: 500px; padding-top: 2cap; background-color: rgb(243, 247, 247);">
+        <div class="row">
+            <div class="col-sm-4">
+                <h6 class="text-success"> Novi Builder</h6><br><br>
+                <h1>Start building <br>visually</h1><br>
+                <p class="text-right">Easily change any element of Intense with the best visual drag and drop builder.
+                </p>
+
+            </div>
+            <div class="col-sm-8">
+                <img class="lazy-img shadow-lg" src="img.gif" data-src="img.gif" alt="" width="800" height="400">
+
+            </div>
+            </div>
+        </div><br><br><br>
+        <!-- 3rd -->
+        <div class="container">
+            <div style="height: 600px; padding-top: 2cap; background-color: rgb(252, 255, 255);">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="slider-3">
+                        <div>
+                            <img class="lazy-img shadow-lg" src="3img1.png" data-src="3img1.png" alt="" width="550"
+                                height="550">
+                        </div>
+                        <div>
+                            <img class="lazy-img shadow-lg" src="3img2.png" data-src="3img2.png" alt="" width="550"
+                                height="550">
+                        </div>
+                        <div>
+                            <img class="lazy-img shadow-lg" src="3img.png" data-src="3img.png" alt="" width="550"
+                                height="550">
+                        </div>
+
+                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+                        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
+                        integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+                        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $('.slider-3').slick({
+                                autoplay: true,
+                                autoplaySpeed: 2000,
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                responsive: [
+                                    {
+                                        breakpoint: 1024,
+                                        settings: {
+                                            slidesToShow: 3,
+                                            slidesToScroll: 3,
+                                            infinite: true,
+                                            dots: true
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 600,
+                                        settings: {
+                                            slidesToShow: 2,
+                                            slidesToScroll: 2
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 480,
+                                        settings: {
+                                            slidesToShow: 1,
+                                            slidesToScroll: 1
+                                        }
+                                    }
+                                    // You can unslick at a given breakpoint now by adding:
+                                    // settings: "unslick"
+                                    // instead of a settings object
+                                ]
+
+                            });
+                        });
+
+                    </script>
+                    <script src="./index.js"></script>
+
+
+
+                </div>
+                <div class="col-sm-6">
+                    <h4 class="text-success" style="padding-top: 7cap ;">Create</h4>
+                    <div class="slider-2">
+                        <div>
+                            <h1 style="padding-top: 1cap; width: 19;">Content Blocks</h1>
+                            <br><br>
+                            <p> Change the layout of intense with the included <br> contenoot blocks ranging form
+                                counters
+                                to tabs animation-dela <br>accordiuns and other mpressive elements </p>
+                        </div>
+                        <div>
+                            <h1 style="padding-top: 3cap; width: 19;">Websites</h1>
+                            <br><br>
+                            <p> Intense gives you a variety of powerful options,<br> useful tools,and unlimited designs
+                                to
+                                easily<br> create a website of your dreams that your clients will love. </p>
+                        </div>
+                        <div>
+                            <h1 style="padding-top: 3cap; width: 19;">Sliders</h1>
+                            <br><br>
+                            <p> Use the built-in slider plugin to create appealing<br> blocks with smooth sliders that
+                                are
+                                completely<br>responsive and customisable </p>
+                        </div>
+
+                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+                        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
+                        integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+                        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+                        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $('.slider-2').slick({
+                                autoplay: true,
+                                autoplaySpeed: 2000,
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                responsive: [
+                                    {
+                                        breakpoint: 1024,
+                                        settings: {
+                                            slidesToShow: 3,
+                                            slidesToScroll: 3,
+                                            infinite: true,
+                                            dots: true
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 600,
+                                        settings: {
+                                            slidesToShow: 2,
+                                            slidesToScroll: 2
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 480,
+                                        settings: {
+                                            slidesToShow: 1,
+                                            slidesToScroll: 1
+                                        }
+                                    }
+
+                                ]
+
+                            });
+                        });
+
+                    </script>
+                    <script src="./index.js"></script>
+                </div>
+            </div>
+        </div>
+            <br><br>
+            <div class="container-fluid">
+
+                <div style="height: 2500px; background-color: rgb(177, 232, 236);">
+                    <br><br><br><br>
+                    <h1 class="text-center">The smartest and the most <br> flexible Bootstrap template</h1><br>
+                    <p class="text-center">Create exactly what you need with our powerful Bootstrap toolkit.</p>
+                    <div class="tab">
+                        <div class="tab-content">
+                            <div class="tab-pane fade active show" id="navClassic1-1" role="tabpanel">
+                                <div class="row row-30 row-md-40 row-lg-50 justify-content-center">
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout 1-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img.jpg" data-src="4img.jpg"
+                                                    alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7)"> Home Default
+                                                    </a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout2-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="home-consulting.html"><img class="lazy-img" src="4img1.jpg"
+                                                    data-src="4img1.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        href="home-consulting.html"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7)">Home
+                                                        Consulting</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout3-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img2.jpg"
+                                                    data-src="4img2.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        href="new.html"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7)">Home
+                                                        business</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout4-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img3.jpg"
+                                                    data-src="4img3.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        href="new.html"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7)">Home
+                                                        studio</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout5-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img4.jpg"
+                                                    data-src="4img4.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        href="new.html"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7)">Home app</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout6-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img5.jpg"
+                                                    data-src="4img5.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        href="new.html"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7)">Home event</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout7-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img6.jpg"
+                                                    data-src="4img6.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        href="new.html"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7);padding: 2cap; ">Home
+                                                        blog</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout8-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img7.jpg"
+                                                    data-src="4img7.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        href="new.html"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7)">home-store</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <br>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout9-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img8.jpg"
+                                                    data-src="4img8.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-title h5"><a class="layout-title-link"
+                                                        href="new.html"
+                                                        style="text-decoration: none;color:rgb(10, 7, 7)">home-minimal</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                    <Br>
+                                    <div class="col-xs-6 col-md-4 col-xl-auto animated fadeInUp"
+                                        data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                        <!-- Layout10-->
+                                        <article class="layout"><a class="layout-figure thumbnail-up-shadow"
+                                                href="new.html"><img class="lazy-img" src="4img9.jpg"
+                                                    data-src="4img9.jpg" alt="" width="336" height="450"></a>
+                                            <br><br>
+                                            <center>
+                                                <div class="layout-titl style=" text-decoration: none;color:rgb(10, 7,
+                                                    7)"e h5"><a class="layout-title-link"
+                                                        href="new.html">home-portfolio</a>
+                                                </div>
+                                            </center>
+                                        </article>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <ul class="nav nav-classic justify-content-center animated fadeInUp" role="tablist"
+                                data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                                <li class="nav-item h4" role="presentation"><a class="nav-link active"
+                                        data-bs-toggle="tab" href="#navClassic1-1" role="tab" aria-selected="true">Home
+                                        Pages</a></li>
+                                <li class="nav-item h4" role="presentation"><a class="nav-link" data-bs-toggle="tab"
+                                        href="#navClassic1-2" role="tab" aria-selected="false" tabindex="-1">Skins</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <br><Br><Br>
+        <!--  -->
+        <div class="container">
+            <div style=" height: 1500px; background-color: rgb(19, 26, 70); padding-top: 10cap;">
+            <div class="row row-30 justify-content-lg-between novi-disabled">
+              <div class="col-md-4">
+                <div class="position-sticky sticky-top">
+                  <h6 class="text-primary">Take full control of your site</h6>
+                  
+                  <ul class="list list-lg">
+                    <li class="list-item"><a class="live-anchor" href="#Design" style="text-decoration: none;color:white" data-live-anchor="">Design</a></li>
+                    <li class="list-item"><a class="live-anchor" href="#Development" style="text-decoration: none;color:white" data-live-anchor="">Development</a></li>
+                    <li class="list-item"><a class="live-anchor active" href="#Customization" style="text-decoration: none;color:white" data-live-anchor="">Customization</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-8 col-lg-7">
+                <div class="row row-50 row-lg-80 row-xl-100 row-xxl-150 novi-disabled">
+                  <div class="col-12" id="Design">
+                    <h4 data-animate="{&quot;class&quot;:&quot;fadeInRight&quot;}" class="animated fadeInRight" style="text-decoration: none;color:white">A extensive range of web design features that make Intense the best template for your website</h4>
+                    <div class="row row-offset-lg row-30 row-md-50 row-xl-70 justify-content-xl-between">
+                      <div class="col-xs-6 col-md-6 col-xxl-5 animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb">
+                                <img src="animation-svgrepo-com.svg" class="rounded" style="text-decoration: none;color:white" alt="Cinque Terre" width="100"
+                                height="100">
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">60+ reusable elements</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">Intense has a set of more than 60 UI elements designed to make your website attractive and feature-rich.</div>
+                              </article>
+                      </div>
+                      <br>
+                      <div class="col-xs-6 col-md-6 col-xxl-5 animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb">
+                                <div class="blurb-embed"><img src="image-text-font-icon-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="100"
+                                    height="100"></span></div>
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">Unlimited Google fonts</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">The template includes a vast range of fonts from Google Fonts library that can be easily switched and replaced.</div>
+                              </article>
+                      </div>
+                      <br>
+                      <div class="col-xs-6 col-md-6 col-xxl-5 align-self-center animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb">
+                                <div class="blurb-embed"><img src="flash-circle-1-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="100"
+                                    height="100"></span></div>
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">Various hover effects and animations</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">Thanks to stunning animations and effects, a website built with Intense will always impress your visitors.</div>
+                              </article>
+                      </div>
+                      <br>
+                      <div class="col-xs-6 col-md-6 col-xxl-5 animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb blurb-boxed blurb-primary">
+                                <div class="blurb-embed"><img src="blog-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="100"
+                                    height="100"></div>
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">Blog and shop pages</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">Post your latest news and integrate eCommerce features with our pre-designed blog &amp; shop pages.</div>
+                              </article>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12" id="Development">
+                    <h4 data-animate="{&quot;class&quot;:&quot;fadeInRight&quot;}" class="animated fadeInRight" style="text-decoration: none;color:white">The latest web development technologies combined to help you create an outstanding website</h4>
+                    <div class="row row-offset-lg row-30 row-md-50 row-xl-70 justify-content-xl-between">
+                      <div class="col-xs-6 col-md-6 col-xxl-5 animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb blurb-boxed blurb-dark">
+                                <div class="blurb-embed"><img src="responsive-design-for-modern-monitors-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="100"
+                                    height="100"></div>
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">Bootstrap framework</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">Intense has a set of more than 60 UI elements designed to make your website attractive and feature-rich.</div>
+                              </article>
+                      </div>
+                      <div class="col-xs-6 col-md-6 col-xxl-5 align-self-center animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb">
+                                <div class="blurb-embed"><img src="html5-multimedia-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="100"
+                                    height="100"></span></div>
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">HTML and CSS compiling by Pug and Sass</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">To simplify and improve the development of your website, Intense uses Pug and Sass code compiling.</div>
+                              </article>
+                      </div>
+                      <div class="col-xs-6 col-md-6 col-xxl-5 align-self-center animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb">
+                                <div class="blurb-embed"><img src="responsive-devices-flexible-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="100"
+                                    height="100"></span></div>
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">Fully component approach to code</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">We used a component approach to code to make the usage of Intense easier for all other developers.</div>
+                              </article>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12" id="Customization">
+                    <h4 data-animate="{&quot;class&quot;:&quot;fadeInRight&quot;}" class="animated fadeInRight" style="text-decoration: none;color:white">With Intense, creating customizable and fully responsive websites is easier than ever</h4>
+                    <div class="row row-offset-lg row-30 row-md-50 row-xl-70 justify-content-xl-between">
+                      <div class="col-xs-6 col-md-6 col-xxl-5 align-self-center animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb">
+                                <div class="blurb-embed"><img src="responsive-adaptive-device-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="100"
+                                    height="100"></span></div>
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">Responsive Layout</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">All pages of Intense are completely responsive guaranteeing that your website will look great on any device.</div>
+                              </article>
+                      </div>
+                      <div class="col-xs-6 col-md-6 col-xxl-5 animated fadeInUp" data-animate="{&quot;class&quot;:&quot;fadeInUp&quot;}">
+                              <!-- Blurb-->
+                              <article class="blurb blurb-boxed blurb-primary">
+                                <img src="safety-kit-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="100"
+                                height="100">
+                                <div class="blurb-title h5" style="text-decoration: none;color:white">Rich UI Kit</div>
+                                <div class="blurb-text" style="text-decoration: none;color:white">Our template supports full customization due to the rich UI kit with lots of blocks and sections.</div>
+                              </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!--  -->
+    <div class="container-fluid">
+
+        <div style="height: 800px; background-color: rgb(245, 248, 248);">
+            <br><br><br><br>
+            <center>
+                <img class="lazy-img shadow-lg" src="7img1.png" data-src="7img1.png" alt="" width="1000" height="400">
+            </center>
+            <br>
+            <br>
+            <h3 class="text-center">Trusted by 98506+ Users </h1><br>
+                <p class="text-center">Create exactly what you need with our powerful Bootstrap toolkit.</p>
+                <center>
+
+                    <button type="button" class="btn btn-success"> More Testimonials</button>
+                </center>
+
+        </div>
+    </div>
+    <br><br><br>
+    <!-- slick slider -->
+    <div class="container-fluid">
+        <div style="height: 400px; padding-top: 1cap; background-color: rgb(235, 241, 241);">
+            <div class="slider-1">
+                <div>
+                    <img class="lazy-img shadow-lg" src="slid1.png" data-src="slid1.png" alt="" width="250"
+                        height="250">
+                </div>
+                <div>
+                    <img class="lazy-img shadow-lg" src="slid2.png" data-src="slid2.png" alt="" width="250"
+                        height="250">
+                </div>
+                <div>
+                    <img class="lazy-img shadow-lg" src="slid3.png" data-src="slid3.png" alt="" width="250"
+                        height="250">
+                </div>
+                <div>
+                    <img class="lazy-img shadow-lg" src="slid4.jpeg" data-src="slid4.png" alt="" width="250"
+                        height="250">
+                </div>
+                <div>
+                    <img class="lazy-img shadow-lg" src="slid5.jpeg" data-src="slid5.png" alt="" width="250"
+                        height="250">
+                </div>
+                <div>
+                    <img class="lazy-img shadow-lg" src="slid3.png" data-src="slid3.png" alt="" width="250"
+                        height="250">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
+        integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider-1').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+
+            });
+        });
+
+    </script>
+    <script src="./index.js"></script>
+    <br><br>
+    <!--  -->
+
+    <!--  -->
+    <div class="container-fluid">
+        <div style="height: 600px; padding-top: 2cap; background-color: rgb(248, 250, 250);">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h1 style="padding-top: 1cap; padding-left: 2cap;">Even more<br>
+                        features available</h1><br>
+                    <p style="padding-left: 5cap;">Take a look at an extensive list of features<br>
+                        that our template has to offer.
+                    </p>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="tab">
+                        <ul class="nav nav-line" role="tablist">
+                            <li class="nav-item h2"><a class="nav-link active" data-bs-toggle="tab" href="#navHomeApp1"
+                                    role="tab" aria-selected="true">Design</a></li>
+                            <li class="nav-item h2"><a class="nav-link" data-bs-toggle="tab" href="#navHomeApp2"
+                                    role="tab" aria-selected="false">Development</a></li>
+
+                        </ul>
+                        <hr>
+
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="navHomeApp1" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="computer-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                            width="70" height="70">
+                                        <h6> Based on <br>Bootstrap</h6>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-4">
+                                        <img src="document-layout-left-svgrepo-com.svg" class="rounded"
+                                            alt="Cinque Terre" width="70" height="70">
+                                        <h6> Sliders and <br>carousels</h6>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-4">
+                                        <img src="file-transfer-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                            width="70" height="70">
+                                        <h6> Parallax</h6>
+                                    </div>
+
+
+
+                                </div>
+                                <br><br>
+                                <div class="row">
+
+                                    <div class="col-4">
+                                        <img src="document-layout-left-svgrepo-com.svg" class="rounded"
+                                            alt="Cinque Terre" width="70" height="70">
+                                        <h5> Lots of header <br> layouts</h5>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="layout-footer-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                            width="70" height="70">
+                                        <h6>A variety of <br>footer layouts
+                                        </h6>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <img src="font-designe-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                            width="70" height="70">
+                                        <h6> Icon fonts</h6>
+                                    </div>
+                                </div>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="video-player-website-svgrepo-com.svg" class="rounded"
+                                            alt="Cinque Terre" width="70" height="70">
+                                        <br><br>
+                                        <h6> Video <br> background</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="domestic-phone-telephone-svgrepo-com.svg" class="rounded"
+                                            alt="Cinque Terre" width="70" height="70">
+                                        <br><br>
+                                        <h6>26 child themes</h6>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="tab-pane fade" id="navHomeApp2" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="file-transfer-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                            width="70" height="70">
+                                        <h6> Parallax</h6>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-4">
+                                        <img src="document-layout-left-svgrepo-com.svg" class="rounded"
+                                            alt="Cinque Terre" width="70" height="70">
+                                        <h6> Sliders and <br>carousels</h6>
+                                    </div>
+                                    <br><br>
+                                    <div class="col-4">
+                                        <img src="computer-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                            width="70" height="70">
+                                        <h6> Based on <br>Bootstrap</h6>
+                                    </div>
+                                </div>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="font-designe-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                            width="70" height="70">
+                                        <h6> Icon fonts</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="layout-footer-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                                            width="70" height="70">
+                                        <h6>A variety of <br>footer layouts
+                                        </h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="document-layout-left-svgrepo-com.svg" class="rounded"
+                                            alt="Cinque Terre" width="70" height="70">
+                                        <h5> Lots of header <br> layouts</h5>
+                                    </div>
+                                </div>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-4">
+
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="domestic-phone-telephone-svgrepo-com.svg" class="rounded"
+                                            alt="Cinque Terre" width="70" height="70">
+                                        <br><br>
+                                        <h6>26 child themes</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="video-player-website-svgrepo-com.svg" class="rounded"
+                                            alt="Cinque Terre" width="70" height="70">
+                                        <br><br>
+                                        <h6> Video <br> background</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--  -->
+
+
+    <!--  -->
+    <div class="container">
+        <div style="height:700px; padding-top: 2cap; background-color: rgb(225, 232, 233);">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="lazy-img shadow-lg" src="last.png" data-src="last.png" alt="" width="500" height="600">
+
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="text-success" style="padding-top: 7cap ;"> Child themes</h6><br><br>
+                    <h1> A wide variety of child <br>Themes for you<br> Websites</h1><br>
+                    <p class="text-right">Easily change any element of Intense with the best visual drag and drop
+                        builder.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div><br><br><br>
+    <!--  -->
+    <footer class="section footer bg-800 text-400 context-dark pended-element novi-background"
+        data-preset="{&quot;title&quot;:&quot;Footer Extended&quot;,&quot;category&quot;:&quot;footer&quot;,&quot;reload&quot;:true,&quot;id&quot;:&quot;footer-extended&quot;}">
+        <div class="container-fluid">
+            <div style="background-color: rgb(121, 109, 109); width:auto;">
+                <div class="row justify-content-center novi-disabled">
+                    <div class="col-sm-11 col-md-9 col-lg-7 col-xl-6 text-center">
+                        <h2 style="padding-top: 3cap;">
+                            Discover the latest trends in<br class="d-none d-xs-block">
+                            web design and development
+                        </h2>
+                        <br>
+                        <p>Trying to stay on top of it all? Get the best tools, resources and inspiration sent
+                            to
+                            your inbox
+                            weekly.</p>
+                        <br><br>
+                        <form class="rd-mailform form-inline justify-content-center group-20 novi-disabled"
+                            data-form-type="subscribe" method="post" action="components/rd-mailform/rd-mailform.php"
+                            novalidate="novalidate">
+                            <div class="form-inline-group">
+                                <input class="form-control form-control-has-validation" type="email" name="email"
+                                    placeholder="Enter your email address" data-constraints="@Email @Required"
+                                    id="regula-generated-643560">
+                                <span class="form-validation"></span>
+                            </div>
+                            <br>
+                            <button style="text-align: right;" class="btn btn-lg btn-primary"
+                                type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <h6>Pages</h6>
+
+                    <div class="col-xl-2">
+
+                        <ul class="list footer-list small fw-normal">
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="404-page.html"
+                                    style="text-decoration: none;color:white">404 page</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="503-page.html"
+                                    style="text-decoration: none;color:white">503 page</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="about-us.html"
+                                    style="text-decoration: none;color:white">About us</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="about-us-2.html"
+                                    style="text-decoration: none;color:white">About us 2</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="about-me.html"
+                                    style="text-decoration: none;color:white">About me</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="about-me-2.html"
+                                    style="text-decoration: none;color:white">About me 2</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="services.html"
+                                    style="text-decoration: none;color:white">Services</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="our-team.html"
+                                    style="text-decoration: none;color:white">Our team</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="our-team-2.html"
+                                    style="text-decoration: none;color:white">Our team 2</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="team-member.html"
+                                    style="text-decoration: none;color:white">Team member</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link"
+                                    href="team-member-2.html" style="text-decoration: none;color:white">Team member
+                                    2</a>
+                            </li>
+
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="careers.html"
+                                    style="text-decoration: none;color:white">Careers</a></li>
+                    </div>
+                    <div class="col-xl-2">
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="faq.html"
+                                style="text-decoration: none;color:white">FAQ</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="faq-2.html"
+                                style="text-decoration: none;color:white">FAQ 2</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="faq-3.html"
+                                style="text-decoration: none;color:white">FAQ 3</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="faq-4.html"
+                                style="text-decoration: none;color:white">FAQ 4</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="contact-me.html"
+                                style="text-decoration: none;color:white">Contact me</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="contact-us.html"
+                                style="text-decoration: none;color:white">Contact us</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="contact-us-2.html"
+                                style="text-decoration: none;color:white">Contact us 2</a>
+                        </li><br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="contact-us-3.html"
+                                style="text-decoration: none;color:white">Contact us 3</a>
+                        </li><br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="get-in-touch.html"
+                                style="text-decoration: none;color:white">Get in touch</a>
+                        </li><br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="subscribe.html"
+                                style="text-decoration: none;color:white">Subscribe</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="sitemap.html"
+                                style="text-decoration: none;color:white">Sitemap</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="coming-soon.html"
+                                style="text-decoration: none;color:white">Coming soon</a></li>
+                    </div>
+                    <div class="col-xl-2">
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="search-results.html"
+                                style="text-decoration: none;color:white">Search results</a>
+                        </li><br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="login.html"
+                                style="text-decoration: none;color:white">Login</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="register.html"
+                                style="text-decoration: none;color:white">Register</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="pricing.html"
+                                style="text-decoration: none;color:white">Pricing</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="appointment.html"
+                                style="text-decoration: none;color:white">Appointment</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link"
+                                href="appointment-calendar.html" style="text-decoration: none;color:white">Appointment
+                                2</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="maintenance.html"
+                                style="text-decoration: none;color:white">Maintenance</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="clients.html"
+                                style="text-decoration: none;color:white">Clients</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link"
+                                href="under-construction.html" style="text-decoration: none;color:white">Under
+                                construction</a>
+                        </li><br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="privacy-policy.html"
+                                style="text-decoration: none;color:white">Privacy policy</a>
+                        </li>
+                    </div>
+                    </ul>
+
+
+                    <div class="col-xl-2">
+                        <h6>Components</h6>
+                        <ul class="list footer-list small fw-normal">
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="404-page.html"
+                                    style="text-decoration: none;color:white">Accordions</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="503-page.html"
+                                    style="text-decoration: none;color:white">Alerts</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="about-us.html"
+                                    style="text-decoration: none;color:white">Animations</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="about-us-2.html"
+                                    style="text-decoration: none;color:white">Breadcrumbs</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="about-me.html"
+                                    style="text-decoration: none;color:white">Buttons</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="about-me-2.html"
+                                    style="text-decoration: none;color:white">Calls to action</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="services.html"
+                                    style="text-decoration: none;color:white">Comments</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="our-team.html"
+                                    style="text-decoration: none;color:white">Offer boxes</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="our-team-2.html"
+                                    style="text-decoration: none;color:white">Counters</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="team-member.html"
+                                    style="text-decoration: none;color:white">Dividers</a></li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link"
+                                    href="team-member-2.html" style="text-decoration: none;color:white">Widgets</a>
+                            </li>
+                            <br>
+                            <li class="list-item" style="color: aliceblue;"><a class="list-link" href="careers.html"
+                                    style="text-decoration: none;color:white">Careers</a></li>
+                    </div>
+                    <div class="col-xl-2">
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="faq.html"
+                                style="text-decoration: none;color:white">From element</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="faq-2.html"
+                                style="text-decoration: none;color:white">Grid system</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="faq-3.html"
+                                style="text-decoration: none;color:white">Blurbs</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="faq-4.html"
+                                style="text-decoration: none;color:white">Icons</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="contact-me.html"
+                                style="text-decoration: none;color:white">Infographics</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="contact-us.html"
+                                style="text-decoration: none;color:white">Badges</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="contact-us-2.html"
+                                style="text-decoration: none;color:white">Lists</a>
+                        </li><br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="contact-us-3.html"
+                                style="text-decoration: none;color:white">Map</a>
+                        </li><br>
+
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="sitemap.html"
+                                style="text-decoration: none;color:white">Media elements</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="coming-soon.html"
+                                style="text-decoration: none;color:white">Persons</a></li>
+                    </div>
+                    <div class="col-xl-2">
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="search-results.html"
+                                style="text-decoration: none;color:white">Pagination</a>
+                        </li><br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="login.html"
+                                style="text-decoration: none;color:white">Posts</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="register.html"
+                                style="text-decoration: none;color:white">Pricing and plans</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="pricing.html"
+                                style="text-decoration: none;color:white">Tables</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="appointment.html"
+                                style="text-decoration: none;color:white"> Tabs</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link"
+                                href="appointment-calendar.html"
+                                style="text-decoration: none;color:white">Testimonials</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="maintenance.html"
+                                style="text-decoration: none;color:white">Text rotator</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="clients.html"
+                                style="text-decoration: none;color:white">Thumbnails</a></li>
+                        <br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link"
+                                href="under-construction.html" style="text-decoration: none;color:white">Countdowns</a>
+                        </li><br>
+                        <li class="list-item" style="color: aliceblue;"><a class="list-link" href="privacy-policy.html"
+                                style="text-decoration: none;color:white">Trypography</a>
+                        </li>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+            <div class="divider footer-divider"></div>
+            <div class="row row-30 justify-content-xxl-between novi-disabled">
+                <div class="col-lg-5">
+                    <!-- Logo-->
+                    <div class="logo"><a class="logo-link" href="index.html"><img class="lazy-img logo-image-default"
+                                src="int.jpeg" data-src="int.jpeg" alt="Intense" width="150" height="85"></a></div>
+                    <p class="small">Get the most for your website with Intense Multipurpose Website Template, valued by
+                        over 3,000 customers worldwide. With a great number of pages, components, elements, and blocks,
+                        this responsive Bootstrap template is definitely worth your attention.</p>
+                </div>
+                <div class="col-md-11 col-lg-7 col-xxl-6">
+                    <p class="small">178 West 27th Street, Suite 527, New York NY 10012, United States</p>
+                    <div class="row row-20 novi-disabled">
+                        <div class="col-auto col-sm-4">
+                            <div class="media media-xxs text-white">
+                                <div class="media-left"> <img src="domestic-phone-telephone-svgrepo-com.svg"
+                                        class="rounded" alt="Cinque Terre" width="20" height="20"></div>
+                                <div class="media-body">
+                                    <ul class="list list-contact">
+                                        <li class="list-contact-item"><a class="list-contact-link" href="tel:#">+1 234
+                                                567 8901</a></li>
+                                        <li class="list-contact-item"><a class="list-contact-link" href="tel:#">+1 234
+                                                567 8902</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto col-sm-4">
+                            <ul class="list list-xs small">
+                                <li class="list-item">Mon-Fri: 8am - 6pm</li>
+                                <li class="list-item">Sat-Sun: 8am - 4pm</li>
+                                <li class="list-item">Holidays: closed</li>
+                            </ul>
+                        </div>
+                        <div class="col-auto col-sm-4">
+                            <ul class="list list-lg small text-white">
+                                <li class="list-item"><a class="link link-contrast link-secondary"
+                                        href="mailto:#">mail@example.com</a></li>
+                                <li class="list-item"><a class="link link-contrast link-secondary"
+                                        href="mailto:#">info@example.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider footer-divider"></div>
+            <div class="row row-15 align-items-center justify-content-between footer-panel novi-disabled">
+                <hr>
+                <div class="col-auto">
+
+                    <!-- Copyright-->
+                    <!-- Copyright-->
+                    <p class="rights"><span>© 2023&nbsp;</span><span>Intense</span><span>. All rights
+                            reserved.&nbsp;</span><a class="rights-link" href="privacy-policy.html">Privacy Policy</a>
+                    </p>
+                </div>
+                <div class="col-auto">
+
+                    <div class="group-30 d-flex align-items-center text-white"> <img src="youtube-svgrepo-com.svg"
+                            class="rounded" alt="Cinque Terre" width="40" height="80"> <img
+                            src="instagram-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="30" height="30">
+                        <img src="facebook-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="30" height="30">
+                        <img src="whatsapp-svgrepo-com.svg" class="rounded" alt="Cinque Terre" width="30"
+                            height="30"><img src="linkedin-svgrepo-com.svg" class="rounded" alt="Cinque Terre"
+                            width="30" height="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    </footer>
+</body>
+
+</html>
